@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4794FE1AA3C68100851B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4794FD1AA3C68100851B63 /* main.m */; };
+		EF4795011AA3C68100851B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795001AA3C68100851B63 /* AppDelegate.m */; };
+		EF4795041AA3C68100851B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795031AA3C68100851B63 /* ViewController.m */; };
+		EF4795071AA3C68100851B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4795051AA3C68100851B63 /* Main.storyboard */; };
+		EF4795091AA3C68100851B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4795081AA3C68100851B63 /* Images.xcassets */; };
+		EF47950C1AA3C68100851B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF47950A1AA3C68100851B63 /* LaunchScreen.xib */; };
+		EF4795181AA3C68100851B63 /* TCShapeSecretTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795171AA3C68100851B63 /* TCShapeSecretTests.m */; };
+		EF4795241AA3C70800851B63 /* TCShapeSecretView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795231AA3C70800851B63 /* TCShapeSecretView.m */; };
+		EF4795281AA3C75600851B63 /* TCShapeSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */; };
+		EF4795291AA3C75600851B63 /* TCShapeSecretViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */; };
+		EF47952C1AA3CCF600851B63 /* TCShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47952B1AA3CCF600851B63 /* TCShapeView.m */; };
+		EF4795321AA450EA00851B63 /* icon_shape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4795311AA450EA00851B63 /* icon_shape.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4795121AA3C68100851B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4794F01AA3C68100851B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4794F71AA3C68100851B63;
+			remoteInfo = TCShapeSecret;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4794F81AA3C68100851B63 /* TCShapeSecret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCShapeSecret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4794FC1AA3C68100851B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4794FD1AA3C68100851B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4794FF1AA3C68100851B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4795001AA3C68100851B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4795021AA3C68100851B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF4795031AA3C68100851B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF4795061AA3C68100851B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4795081AA3C68100851B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF47950B1AA3C68100851B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF4795111AA3C68100851B63 /* TCShapeSecretTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCShapeSecretTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4795161AA3C68100851B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4795171AA3C68100851B63 /* TCShapeSecretTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretTests.m; sourceTree = "<group>"; };
+		EF4795221AA3C70800851B63 /* TCShapeSecretView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeSecretView.h; sourceTree = "<group>"; };
+		EF4795231AA3C70800851B63 /* TCShapeSecretView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretView.m; sourceTree = "<group>"; };
+		EF4795251AA3C75600851B63 /* TCShapeSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeSecretViewController.h; sourceTree = "<group>"; };
+		EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretViewController.m; sourceTree = "<group>"; };
+		EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCShapeSecretViewController.xib; sourceTree = "<group>"; };
+		EF47952A1AA3CCF600851B63 /* TCShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeView.h; sourceTree = "<group>"; };
+		EF47952B1AA3CCF600851B63 /* TCShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeView.m; sourceTree = "<group>"; };
+		EF4795311AA450EA00851B63 /* icon_shape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_shape.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4794F51AA3C68100851B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47950E1AA3C68100851B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4794EF1AA3C68100851B63 = {
+			isa = PBXGroup;
+			children = (
+				EF4794FA1AA3C68100851B63 /* TCShapeSecret */,
+				EF4795141AA3C68100851B63 /* TCShapeSecretTests */,
+				EF4794F91AA3C68100851B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4794F91AA3C68100851B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4794F81AA3C68100851B63 /* TCShapeSecret.app */,
+				EF4795111AA3C68100851B63 /* TCShapeSecretTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4794FA1AA3C68100851B63 /* TCShapeSecret */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795211AA3C6CE00851B63 /* shapeSecretClasses */,
+				EF4794FF1AA3C68100851B63 /* AppDelegate.h */,
+				EF4795001AA3C68100851B63 /* AppDelegate.m */,
+				EF4795021AA3C68100851B63 /* ViewController.h */,
+				EF4795031AA3C68100851B63 /* ViewController.m */,
+				EF4795051AA3C68100851B63 /* Main.storyboard */,
+				EF4795081AA3C68100851B63 /* Images.xcassets */,
+				EF47950A1AA3C68100851B63 /* LaunchScreen.xib */,
+				EF4794FB1AA3C68100851B63 /* Supporting Files */,
+			);
+			path = TCShapeSecret;
+			sourceTree = "<group>";
+		};
+		EF4794FB1AA3C68100851B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795311AA450EA00851B63 /* icon_shape.jpg */,
+				EF4794FC1AA3C68100851B63 /* Info.plist */,
+				EF4794FD1AA3C68100851B63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4795141AA3C68100851B63 /* TCShapeSecretTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795171AA3C68100851B63 /* TCShapeSecretTests.m */,
+				EF4795151AA3C68100851B63 /* Supporting Files */,
+			);
+			path = TCShapeSecretTests;
+			sourceTree = "<group>";
+		};
+		EF4795151AA3C68100851B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795161AA3C68100851B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4795211AA3C6CE00851B63 /* shapeSecretClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF47952A1AA3CCF600851B63 /* TCShapeView.h */,
+				EF47952B1AA3CCF600851B63 /* TCShapeView.m */,
+				EF4795221AA3C70800851B63 /* TCShapeSecretView.h */,
+				EF4795231AA3C70800851B63 /* TCShapeSecretView.m */,
+				EF4795251AA3C75600851B63 /* TCShapeSecretViewController.h */,
+				EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */,
+				EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */,
+			);
+			path = shapeSecretClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4794F71AA3C68100851B63 /* TCShapeSecret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47951B1AA3C68100851B63 /* Build configuration list for PBXNativeTarget "TCShapeSecret" */;
+			buildPhases = (
+				EF4794F41AA3C68100851B63 /* Sources */,
+				EF4794F51AA3C68100851B63 /* Frameworks */,
+				EF4794F61AA3C68100851B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCShapeSecret;
+			productName = TCShapeSecret;
+			productReference = EF4794F81AA3C68100851B63 /* TCShapeSecret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4795101AA3C68100851B63 /* TCShapeSecretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47951E1AA3C68100851B63 /* Build configuration list for PBXNativeTarget "TCShapeSecretTests" */;
+			buildPhases = (
+				EF47950D1AA3C68100851B63 /* Sources */,
+				EF47950E1AA3C68100851B63 /* Frameworks */,
+				EF47950F1AA3C68100851B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4795131AA3C68100851B63 /* PBXTargetDependency */,
+			);
+			name = TCShapeSecretTests;
+			productName = TCShapeSecretTests;
+			productReference = EF4795111AA3C68100851B63 /* TCShapeSecretTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4794F01AA3C68100851B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "wei feng";
+				TargetAttributes = {
+					EF4794F71AA3C68100851B63 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF4795101AA3C68100851B63 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF4794F71AA3C68100851B63;
+					};
+				};
+			};
+			buildConfigurationList = EF4794F31AA3C68100851B63 /* Build configuration list for PBXProject "TCShapeSecret" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4794EF1AA3C68100851B63;
+			productRefGroup = EF4794F91AA3C68100851B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4794F71AA3C68100851B63 /* TCShapeSecret */,
+				EF4795101AA3C68100851B63 /* TCShapeSecretTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4794F61AA3C68100851B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4795071AA3C68100851B63 /* Main.storyboard in Resources */,
+				EF4795321AA450EA00851B63 /* icon_shape.jpg in Resources */,
+				EF4795291AA3C75600851B63 /* TCShapeSecretViewController.xib in Resources */,
+				EF47950C1AA3C68100851B63 /* LaunchScreen.xib in Resources */,
+				EF4795091AA3C68100851B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47950F1AA3C68100851B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4794F41AA3C68100851B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4795041AA3C68100851B63 /* ViewController.m in Sources */,
+				EF4795281AA3C75600851B63 /* TCShapeSecretViewController.m in Sources */,
+				EF4795011AA3C68100851B63 /* AppDelegate.m in Sources */,
+				EF4794FE1AA3C68100851B63 /* main.m in Sources */,
+				EF4795241AA3C70800851B63 /* TCShapeSecretView.m in Sources */,
+				EF47952C1AA3CCF600851B63 /* TCShapeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47950D1AA3C68100851B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4795181AA3C68100851B63 /* TCShapeSecretTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4795131AA3C68100851B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4794F71AA3C68100851B63 /* TCShapeSecret */;
+			targetProxy = EF4795121AA3C68100851B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4795051AA3C68100851B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4795061AA3C68100851B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF47950A1AA3C68100851B63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF47950B1AA3C68100851B63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4795191AA3C68100851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF47951A1AA3C68100851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF47951C1AA3C68100851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCShapeSecret/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF47951D1AA3C68100851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCShapeSecret/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF47951F1AA3C68100851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TCShapeSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCShapeSecret.app/TCShapeSecret";
+			};
+			name = Debug;
+		};
+		EF4795201AA3C68100851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TCShapeSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCShapeSecret.app/TCShapeSecret";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4794F31AA3C68100851B63 /* Build configuration list for PBXProject "TCShapeSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4795191AA3C68100851B63 /* Debug */,
+				EF47951A1AA3C68100851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47951B1AA3C68100851B63 /* Build configuration list for PBXNativeTarget "TCShapeSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47951C1AA3C68100851B63 /* Debug */,
+				EF47951D1AA3C68100851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47951E1AA3C68100851B63 /* Build configuration list for PBXNativeTarget "TCShapeSecretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47951F1AA3C68100851B63 /* Debug */,
+				EF4795201AA3C68100851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4794F01AA3C68100851B63 /* Project object */;
+}
