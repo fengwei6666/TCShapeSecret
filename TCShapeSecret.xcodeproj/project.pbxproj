@@ -15,10 +15,10 @@
 		EF47950C1AA3C68100851B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF47950A1AA3C68100851B63 /* LaunchScreen.xib */; };
 		EF4795181AA3C68100851B63 /* TCShapeSecretTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795171AA3C68100851B63 /* TCShapeSecretTests.m */; };
 		EF4795241AA3C70800851B63 /* TCShapeSecretView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795231AA3C70800851B63 /* TCShapeSecretView.m */; };
-		EF4795281AA3C75600851B63 /* TCShapeSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */; };
-		EF4795291AA3C75600851B63 /* TCShapeSecretViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */; };
 		EF47952C1AA3CCF600851B63 /* TCShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47952B1AA3CCF600851B63 /* TCShapeView.m */; };
 		EF4795321AA450EA00851B63 /* icon_shape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4795311AA450EA00851B63 /* icon_shape.jpg */; };
+		EFF593E21C7D3CE6000B5989 /* TCShapeSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF593E01C7D3CE6000B5989 /* TCShapeSecretViewController.m */; };
+		EFF593E31C7D3CE6000B5989 /* TCShapeSecretViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF593E11C7D3CE6000B5989 /* TCShapeSecretViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +47,12 @@
 		EF4795171AA3C68100851B63 /* TCShapeSecretTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretTests.m; sourceTree = "<group>"; };
 		EF4795221AA3C70800851B63 /* TCShapeSecretView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeSecretView.h; sourceTree = "<group>"; };
 		EF4795231AA3C70800851B63 /* TCShapeSecretView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretView.m; sourceTree = "<group>"; };
-		EF4795251AA3C75600851B63 /* TCShapeSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeSecretViewController.h; sourceTree = "<group>"; };
-		EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretViewController.m; sourceTree = "<group>"; };
-		EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCShapeSecretViewController.xib; sourceTree = "<group>"; };
 		EF47952A1AA3CCF600851B63 /* TCShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeView.h; sourceTree = "<group>"; };
 		EF47952B1AA3CCF600851B63 /* TCShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeView.m; sourceTree = "<group>"; };
 		EF4795311AA450EA00851B63 /* icon_shape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_shape.jpg; sourceTree = "<group>"; };
+		EFF593DF1C7D3CE6000B5989 /* TCShapeSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCShapeSecretViewController.h; sourceTree = "<group>"; };
+		EFF593E01C7D3CE6000B5989 /* TCShapeSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCShapeSecretViewController.m; sourceTree = "<group>"; };
+		EFF593E11C7D3CE6000B5989 /* TCShapeSecretViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCShapeSecretViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,9 @@
 				EF4795001AA3C68100851B63 /* AppDelegate.m */,
 				EF4795021AA3C68100851B63 /* ViewController.h */,
 				EF4795031AA3C68100851B63 /* ViewController.m */,
+				EFF593DF1C7D3CE6000B5989 /* TCShapeSecretViewController.h */,
+				EFF593E01C7D3CE6000B5989 /* TCShapeSecretViewController.m */,
+				EFF593E11C7D3CE6000B5989 /* TCShapeSecretViewController.xib */,
 				EF4795051AA3C68100851B63 /* Main.storyboard */,
 				EF4795081AA3C68100851B63 /* Images.xcassets */,
 				EF47950A1AA3C68100851B63 /* LaunchScreen.xib */,
@@ -141,9 +144,6 @@
 				EF47952B1AA3CCF600851B63 /* TCShapeView.m */,
 				EF4795221AA3C70800851B63 /* TCShapeSecretView.h */,
 				EF4795231AA3C70800851B63 /* TCShapeSecretView.m */,
-				EF4795251AA3C75600851B63 /* TCShapeSecretViewController.h */,
-				EF4795261AA3C75600851B63 /* TCShapeSecretViewController.m */,
-				EF4795271AA3C75600851B63 /* TCShapeSecretViewController.xib */,
 			);
 			path = shapeSecretClasses;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			files = (
 				EF4795071AA3C68100851B63 /* Main.storyboard in Resources */,
 				EF4795321AA450EA00851B63 /* icon_shape.jpg in Resources */,
-				EF4795291AA3C75600851B63 /* TCShapeSecretViewController.xib in Resources */,
+				EFF593E31C7D3CE6000B5989 /* TCShapeSecretViewController.xib in Resources */,
 				EF47950C1AA3C68100851B63 /* LaunchScreen.xib in Resources */,
 				EF4795091AA3C68100851B63 /* Images.xcassets in Resources */,
 			);
@@ -251,9 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4795041AA3C68100851B63 /* ViewController.m in Sources */,
-				EF4795281AA3C75600851B63 /* TCShapeSecretViewController.m in Sources */,
 				EF4795011AA3C68100851B63 /* AppDelegate.m in Sources */,
 				EF4794FE1AA3C68100851B63 /* main.m in Sources */,
+				EFF593E21C7D3CE6000B5989 /* TCShapeSecretViewController.m in Sources */,
 				EF4795241AA3C70800851B63 /* TCShapeSecretView.m in Sources */,
 				EF47952C1AA3CCF600851B63 /* TCShapeView.m in Sources */,
 			);
